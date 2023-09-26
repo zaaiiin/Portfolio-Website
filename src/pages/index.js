@@ -4,9 +4,9 @@ import Layout from "@/app/layout";
 
 function HomePage() {
   return (
-    <div className="hello">
-      <Layout />
-    </div>
+    <Layout>
+      <div className="hello"></div>
+    </Layout>
   );
 }
 
