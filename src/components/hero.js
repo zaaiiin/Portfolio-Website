@@ -1,0 +1,27 @@
+import React from "react";
+import "@/styles/hero.css";
+import Image from "next/image";
+import "@/app/flexbox.css";
+
+const Hero = () => {
+  return (
+    <hero>
+      <div className="hero flex-container">
+        <div className="hero-content col-4">
+          <h1 className="hero-title">Hello, I'm Zaain </h1>
+          <p className="hero-paragraph">
+            I am a frontend developer with experience in React, JavaScript and
+            more. I love seeing ideas come to life and consider myself a
+            life-long learner!
+          </p>
+
+          <button className="aboutme_btn">More about me</button>
+        </div>
+
+        <div className="hero-photo col-2">{/* <Image></Image> */}</div>
+      </div>
+    </hero>
+  );
+};
+
+export default Hero;
