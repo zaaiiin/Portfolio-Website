@@ -1,9 +1,8 @@
 import React from "react";
-import "@/styles/hero.css";
-import "@/app/flexbox.css";
+import "@/src/styles/hero.css";
+import "@/src/app/flexbox.css";
 import Desktop from "public/images/desktop.svg";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
@@ -17,8 +16,6 @@ const Hero = () => {
             life-long learner!
           </p>
         </div>
-
-        <Button>hello</Button>
 
         <div className="hero-photo col-2">
           <Image

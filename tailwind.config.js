@@ -2,71 +2,73 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    "./pages/**/*.{js,jsx}",
-    "./components/**/*.{js,jsx}",
-    "./app/**/*.{js,jsx}",
-    "./src/**/*.{js,jsx}",
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
+    screens: {
+      sm: "375px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1440px",
+    },
     container: {
       center: true,
       padding: "2rem",
       screens: {
-        sm: "375px",
-        md: "768px",
-        lg: "1024px",
-        xl: "1440px",
+        "2xl": "1400px",
       },
     },
     extend: {
-      // fontFamily: {
-      //   sans: ["Open Sans", "sans-serif"],
-      // },
-      // fontWeight: {
-      //   extrablack: "1000",
-      // },
-      // gridTemplateColumns: {
-      //   gridFluid: "repeat(auto-fit, minmax(640px, 1fr))",
-      // },
-      colors: {
-        border: "hsl(var(--border))",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
-        },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
-        muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
-        },
-        accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
-        },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
-        card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
-        },
+      zIndex: {
+        100: "100",
+        120: "120",
       },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+      inset: {
+        151: "151px",
+        148: "148px",
+      },
+      spacing: {
+        85: "85px",
+      },
+      margin: {
+        88: "88px",
+        110: "110px",
+        150: "150px",
+        204: "204px",
+        220: "220px",
+      },
+      sizing: {
+        30: "30px",
+      },
+      height: {
+        212: "212px",
+        300: "300px",
+        400: "400px",
+        500: "500px",
+        600: "600px",
+      },
+      width: {
+        300: "300px",
+        400: "400px",
+        500: "500px",
+        600: "600px",
+      },
+      letterSpacing: {
+        widest: ".15em",
+      },
+      fontFamily: {
+        "pt-sans-narrow": ["PT Sans Narrow", "sans-serif"],
+      },
+      fontWeight: {
+        400: 400,
+        700: 700,
+      },
+      colors: {
+        primary1: "#c33764 ",
+        primary2: "#7b4397  ",
       },
       keyframes: {
         "accordion-down": {
