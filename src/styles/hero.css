@@ -10,6 +10,10 @@
   height: 250px;
 }
 
+.hero-title {
+  font-size: 30px;
+}
+
 .hero-paragraph {
   font-weight: 500;
 }
@@ -25,19 +29,21 @@
   height: 200px;
 } */
 
-button {
+/* button {
   border: none;
   padding: 8px 17px;
   font-weight: 600;
-}
-
+  background-color: black;
+  color: #e8e8e8;
+  border-radius: 5px;
+} */
+/* 
 button:hover {
   opacity: 80%;
   cursor: pointer;
   transition: ease 0.3s;
-}
-.more-btn {
-  background-color: black;
-  color: #e8e8e8;
-  border-radius: 5px;
-}
+} */
+
+/* .desktop-image {
+  padding-left: 25px;
+} */
