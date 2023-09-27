@@ -1,7 +1,9 @@
 import React from "react";
 import "@/styles/hero.css";
-import Image from "next/image";
 import "@/app/flexbox.css";
+import Desktop from "public/images/desktop.svg";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
@@ -14,11 +16,21 @@ const Hero = () => {
             more. I love seeing ideas come to life and consider myself a
             life-long learner!
           </p>
-
-          <button className="aboutme_btn">More about me</button>
         </div>
 
-        <div className="hero-photo col-2">{/* <Image></Image> */}</div>
+        <Button>hello</Button>
+
+        <div className="hero-photo col-2">
+          <Image
+            src={Desktop}
+            alt="desktop"
+            className="desktop-image"
+            width={200}
+            height={200}
+          ></Image>
+        </div>
+
+        {/* <div className="hero-design">hhhhhhhhh</div> */}
       </div>
     </hero>
   );

@@ -2,20 +2,32 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
-	],
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
+  ],
   theme: {
     container: {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        sm: "375px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1440px",
       },
     },
     extend: {
+      // fontFamily: {
+      //   sans: ["Open Sans", "sans-serif"],
+      // },
+      // fontWeight: {
+      //   extrablack: "1000",
+      // },
+      // gridTemplateColumns: {
+      //   gridFluid: "repeat(auto-fit, minmax(640px, 1fr))",
+      // },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -73,4 +85,4 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};

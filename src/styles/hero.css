@@ -1,1 +1,26 @@
+.hero {
+  height: auto;
+  padding: 50px;
+  border: 2px solid blue;
+  /* background-image: linear-gradient(to bottom, #eecda3, #ef629f); */
+  /* height: 100vh; */
+}
 
+.hero-content {
+  height: 250px;
+}
+
+.hero-paragraph {
+  font-weight: 500;
+}
+
+.hero-photo {
+  width: 300px;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+/* .hero-design {
+  height: 200px;
+} */
