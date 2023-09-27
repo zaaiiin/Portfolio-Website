@@ -24,3 +24,20 @@
 /* .hero-design {
   height: 200px;
 } */
+
+button {
+  border: none;
+  padding: 8px 17px;
+  font-weight: 600;
+}
+
+button:hover {
+  opacity: 80%;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+.more-btn {
+  background-color: black;
+  color: #e8e8e8;
+  border-radius: 5px;
+}
