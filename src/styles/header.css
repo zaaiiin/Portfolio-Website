@@ -3,4 +3,30 @@ header {
   top: 0;
   right: 0;
   width: 100%;
+  border: 2px solid blue;
+}
+
+.hamburger-menu {
+  opacity: 90%;
+  background-color: none;
+}
+
+.menu:hover {
+  opacity: 90%;
+}
+
+.menu-group {
+  border-radius: 20px;
+}
+
+.menu-group_item {
+  background-color: black;
+  color: white;
+  padding: 9px 14px;
+}
+
+.menu-group_item:hover {
+  opacity: 80%;
+  cursor: pointer;
+  transition: ease 0.3s;
 }

@@ -6,11 +6,11 @@
 
 .hero-content {
   height: max-content;
-  padding: 50px 50px 0px 50px;
+  padding: 30px 50px 0px 50px;
 }
 
 .hero-title {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .hero-paragraph {
@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  margin: 80px 50px 50px 50px;
+  margin: 50px 50px 50px 50px;
 }
 
 .more-btn {
