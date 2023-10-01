@@ -1,3 +1,27 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+button {
+  font-size: 16px;
+  border: none;
+  padding: 8px 17px;
+  font-weight: 600;
+  background-color: black;
+  color: #e8e8e8;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 80%;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 16px;
+}

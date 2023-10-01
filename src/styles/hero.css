@@ -11,7 +11,7 @@
 }
 
 .hero-title {
-  font-size: 30px;
+  margin: 10px 0;
 }
 
 .hero-paragraph {
@@ -29,20 +29,9 @@
   height: 200px;
 } */
 
-/* button {
-  border: none;
-  padding: 8px 17px;
-  font-weight: 600;
-  background-color: black;
-  color: #e8e8e8;
-  border-radius: 5px;
-} */
-/* 
-button:hover {
-  opacity: 80%;
-  cursor: pointer;
-  transition: ease 0.3s;
-} */
+.more-btn {
+  margin: 20px 0px;
+}
 
 /* .desktop-image {
   padding-left: 25px;
