@@ -10,7 +10,12 @@ module.exports = {
     screens: {
       sm: "500px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        pink: "#e79696 ",
+        primary2: "#7b4397  ",
+      },
+    },
   },
   plugins: [],
 };
