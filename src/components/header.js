@@ -30,21 +30,23 @@ const Header = () => {
         </button>
 
         {toggle && (
-          <div>
-            <button className="close-btn absolute right-5 mt-5 z-20">
-              <Image
-                src={Closebtn}
-                className="close-icon  "
-                height={25}
-                width={25}
+          <div className="menu-container ">
+            <ul className="menu-group absolute right-5 top-5 flex flex-col  items-left w-[200px] h-max bg-black ">
+              <button
+                className="close-btn absolute top-1 right-0 z-20"
                 onClick={() => setToggle(!toggle)}
-              />
-            </button>
+              >
+                <Image
+                  src={Closebtn}
+                  className="close-icon "
+                  height={15}
+                  width={15}
+                />
+              </button>
 
-            <ul className="menu-group  flex-col absolute right-0 mt-5 items-left rounded-md px-3 w-60">
-              <li className="menu-group_item mt-2">About me</li>
+              <li className="menu-group_item about-me">About me</li>
               <li className="menu-group_item">My work</li>
-              <li className="menu-group_item mb-2">Contact</li>
+              <li className="menu-group_item contact">Contact</li>
             </ul>
           </div>
         )}

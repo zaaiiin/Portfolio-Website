@@ -11,22 +11,34 @@ header {
   background-color: none;
 }
 
-.menu:hover {
-  opacity: 90%;
+.menu-group {
+  border-radius: 5px;
 }
 
-.menu-group {
-  border-radius: 20px;
+.close-btn {
+  background-color: transparent;
 }
 
 .menu-group_item {
-  background-color: black;
+  width: 200px;
+  background-color: #e79696;
   color: white;
   padding: 9px 14px;
+  height: 40px;
 }
 
 .menu-group_item:hover {
   opacity: 80%;
   cursor: pointer;
   transition: ease 0.3s;
+}
+
+.about-me {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.contact {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
