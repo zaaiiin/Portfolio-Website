@@ -3,14 +3,13 @@ nav {
   position: fixed;
   top: 0px;
   right: 0px;
-  background-color: #e79696;
   color: white;
 }
 
 .nav-list {
-  margin: 0 200px 0 0;
+  margin: 0 60px 0 0;
   padding: 10px 0;
-  width: 460px;
+  width: 100vw;
   height: 45px;
 }
 

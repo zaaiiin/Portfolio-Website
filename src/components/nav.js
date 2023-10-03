@@ -5,7 +5,7 @@ import "@/app/globals.css";
 
 const Nav = () => {
   return (
-    <nav className="nav-bar invisible md:visible">
+    <nav className="nav-bar invisible md:visible bg-primaryGrey">
       <ul className="nav-list">
         <li>
           <Link href="/about" className="about" />
