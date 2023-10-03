@@ -4,7 +4,7 @@ import "@/styles/footer.css";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer">Copyrights reserved</div>
+      <div className="footer bg-slate-100">Copyrights reserved</div>
     </footer>
   );
 };

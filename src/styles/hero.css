@@ -9,10 +9,12 @@
 
 .hero-title {
   margin: 5px 0;
+  font-weight: 600;
 }
 
 .hero-paragraph {
   margin-top: 35px;
+  font-weight: 500;
 }
 
 .hero-photo {
@@ -20,10 +22,6 @@
   width: 300px;
 
   display: flex;
-}
-
-.desktop-image {
-  filter: drop-shadow(2px 3px 3px #263238);
 }
 
 .more-btn {
