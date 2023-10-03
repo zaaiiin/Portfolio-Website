@@ -38,6 +38,7 @@ const Header = () => {
               >
                 <Image
                   src={Closebtn}
+                  alt="close-icon"
                   className="close-icon "
                   height={15}
                   width={15}
