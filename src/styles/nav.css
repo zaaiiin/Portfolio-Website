@@ -3,7 +3,8 @@ nav {
   position: fixed;
   top: 0px;
   right: 0px;
-  background-color: pink;
+  background-color: #e79696;
+  color: white;
 }
 
 .nav-list {
@@ -24,4 +25,10 @@ ul {
 
 li {
   margin-right: 70px;
+}
+
+li:hover {
+  opacity: 80%;
+  cursor: pointer;
+  transition: ease 0.3s;
 }

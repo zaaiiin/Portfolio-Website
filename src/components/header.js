@@ -13,12 +13,12 @@ const Header = () => {
   return (
     <header className="flex h-10 relative">
       <div className="logo"></div>
-      {/* <div>
+      <div>
         <Nav />
-      </div> */}
+      </div>
       <div>
         <button
-          className="hamburger-menu bg-white absolute right-5 mt-5"
+          className="hamburger-menu bg-white absolute right-5 mt-5 md:invisible"
           onClick={() => setToggle(!toggle)}
         >
           <Image

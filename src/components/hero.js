@@ -7,8 +7,8 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <hero>
-      <div className="hero flex-container">
-        <div className="hero-content col-4 ">
+      <div className="hero flex-container m-[25px] lg:m-[50px]">
+        <div className="hero-content col-4 pt-[30px] pr-[50px] pb-[0px] pl-[50px] md:p-[50px]">
           <h1 className="hero-title ">Hello, I'm Zaain </h1>
           <p className="hero-paragraph">
             I am a frontend developer and I love seeing ideas come to life on
@@ -17,17 +17,15 @@ const Hero = () => {
           <button className="more-btn  ">More about me</button>
         </div>
 
-        <div className="hero-photo col-2">
+        <div className="hero-photo col-1 m-[50px] lg:m-[0px] justify-center xl:justify-end  lg:mt-[50px] xl:mt-[70px]">
           <Image
             src={Desktop}
             alt="desktop"
-            className="desktop-image"
+            className="desktop-image md:w-[300px] md:h-[300px]  xl:w-[600px] xl:h-[600px] "
             width={210}
             height={210}
           ></Image>
         </div>
-
-        {/* <div className="hero-design">hhhhhhhhh</div> */}
       </div>
     </hero>
   );
