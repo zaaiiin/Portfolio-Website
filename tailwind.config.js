@@ -32,7 +32,7 @@ module.exports = {
         primaryTan: "#dbbea1ff",
         primaryBrown: "#a37b73ff",
         primaryDarkBrown: "#3f292bff",
-        primaryRosered: "#c43158ff",
+        primaryRoseRed: "#c43158ff",
       },
     },
   },

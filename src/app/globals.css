@@ -13,6 +13,7 @@ button {
 }
 
 button:hover {
+  color: #db7f67ff;
   opacity: 80%;
   cursor: pointer;
   transition: ease 0.3s;

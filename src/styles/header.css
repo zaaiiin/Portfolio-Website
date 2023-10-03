@@ -27,6 +27,7 @@ header {
 }
 
 .menu-group_item:hover {
+  color: white;
   opacity: 80%;
   cursor: pointer;
   transition: ease 0.3s;
