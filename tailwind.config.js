@@ -16,8 +16,16 @@ module.exports = {
     },
     extend: {
       colors: {
-        pink: "#e79696 ",
-        primary2: "#7b4397  ",
+        primaryPink: "#e79696 ",
+        primaryGrey: "#e1dad7",
+        primaryBlack: "#273332",
+        primaryYellow: "#FFC727",
+        primaryGreen: "#286541",
+        primaryBrown: "#AF958A",
+        primaryPurple: "#B57C8A",
+        primaryDarkBrown: "#4A3131",
+        primaryDarkBlue: "#263238",
+        primaryBeige: "#E5BFA4",
       },
     },
   },
