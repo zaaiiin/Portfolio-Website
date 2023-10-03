@@ -21,7 +21,7 @@ const Hero = () => {
           <Image
             src={Desktop}
             alt="desktop"
-            className="desktop-image md:w-[300px] md:h-[300px]  xl:w-[600px] xl:h-[600px] "
+            className="desktop-image md:w-[300px] md:h-[300px] lg:w-[450px] lg:h-[450px]"
             width={210}
             height={210}
           ></Image>
