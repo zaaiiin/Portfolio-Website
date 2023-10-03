@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <hero>
       <div className="hero flex-container m-[25px] lg:m-[50px]">
-        <div className="hero-content col-4 pt-[30px] pr-[50px] pb-[0px] pl-[50px] md:p-[50px]">
+        <div className="hero-content col-4 pt-[30px] pr-[50px] pb-[0px] pl-[50px]  xl:pl-[0px]">
           <h1 className="hero-title ">Hello, I'm Zaain </h1>
           <p className="hero-paragraph">
             I am a frontend developer and I love seeing ideas come to life on
