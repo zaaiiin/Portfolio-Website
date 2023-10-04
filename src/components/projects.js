@@ -5,21 +5,21 @@ import "@/app/flexbox.css";
 const ProjectsCards = () => {
   return (
     <>
-      <div className="projects flex-container bg-primaryOrange text-white">
+      <div className="projects flex-container bg-primaryOrange text-white m-20">
         {projects.map((value, index) => {
-          const { project, description, skills } = value;
+          const { project, caption, skills } = value;
 
           return (
             <div
-              className="project-card_container col-2 border-[2px] border-cyan-500 w-[200px]"
+              className="project-card col-2 border-[2px] w-[200px]"
               key={index}
             >
-              {project}
+              <h2 className="project-name">{project}</h2>
               <div>
-                <p>{description}</p>
+                <p className="project-caption">{caption}</p>
               </div>
 
-              <ul>
+              <ul className="skills-used">
                 {skills.map((skill, skillIndex) => (
                   <li key={skillIndex}>{skill}</li>
                 ))}
