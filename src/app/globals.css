@@ -20,9 +20,27 @@ button:hover {
 }
 
 h1 {
+  margin: 5px 0;
+  font-weight: 600;
   font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 p {
   font-size: 16px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shadow {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
 }
