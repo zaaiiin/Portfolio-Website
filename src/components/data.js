@@ -1,4 +1,10 @@
-export const aboutMe = "Hello";
+export const aboutMe = [
+  {
+    p1: "My name is Zaain and I am based in KL.",
+    p2: "I am a dedicated learner with a passion for front-end development. My journey began with enrolling to a JavaScript course out of curiosity. I discovered my interest in bringing designs to life and making them pixel-perfect.",
+    p3: "Apart from creating user-friendly web interfaces, I also like to write content.",
+  },
+];
 
 export const projects = [
   {
