@@ -1,5 +1,49 @@
 .about-me_p {
-  margin: 30px 50px;
+  margin: 30px 150px;
   text-align: left;
   line-height: 30px;
+  animation-duration: 3s;
+}
+
+/*fade in animation*/
+.fade-in {
+  animation-name: fade-in;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/*fade in from the left animation*/
+.fade-in-from-left {
+  animation: fade-in-left 1s ease forwards;
+}
+
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/*delay of fade-in animation*/
+.fade-in-delayed-1 {
+  animation-name: fade-in-left;
+  animation-delay: 1s;
+}
+
+.fade-in-delayed-2 {
+  animation-name: fade-in-left;
+  animation-delay: 2s;
 }

@@ -11,13 +11,19 @@ const About = () => {
         return (
           <div className="paragraphs">
             <h1 className="about-me">More about me</h1>
-            <p className="about-me_p p1" key={index}>
+            <p className="about-me_p p1  fade-in-from-left" key={index}>
               {p1}
             </p>
-            <p className="about-me_p p2" key={index}>
+            <p
+              className="about-me_p p2 fade-in-from-left fade-in-delayed-1"
+              key={index}
+            >
               {p2}
             </p>
-            <p className="about-me_p p3" key={index}>
+            <p
+              className="about-me_p p3 fade-in-from-left fade-in-delayed-2"
+              key={index}
+            >
               {p3}
             </p>
           </div>
