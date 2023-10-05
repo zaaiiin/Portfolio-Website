@@ -35,12 +35,6 @@ p {
   font-size: 16px;
 }
 
-.flex {
-  display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
-}
-
-.flex-container .shadow {
+.shadow {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
 }

@@ -1,7 +1,7 @@
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 .col-1 {
   flex-basis: 16%;
@@ -58,9 +58,5 @@
 
   .col-1 {
     flex-basis: 50%;
-  }
-
-  .col-2 {
-    flex-basis: 20%;
   }
 }

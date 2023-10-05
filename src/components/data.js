@@ -1,3 +1,5 @@
+export const aboutMe = "Hello";
+
 export const projects = [
   {
     id: 1,
