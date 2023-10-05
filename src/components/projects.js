@@ -8,16 +8,18 @@ import "@/styles/projects.css";
 const ProjectsCards = () => {
   return (
     <>
-      <div className="projects flex-container text-black my-20 mx-0 lg:my-auto justify-center align-center  gap-[20px] lg:w-[1200px]">
+      <div className="projects flex-container text-black my-10 mx-0 lg:my-auto justify-center align-center  gap-[10px] lg:w-[1200px]">
+        <h1>My Projects</h1>
+
         {projects.map((value, index) => {
           const { project, caption, skills, cover } = value;
 
           return (
             <div className="projects-container col-2 justify-center">
-              <h2 className="project-name  text-xl">{project}</h2>
+              <h2 className="project-name  text-xl mt-10">{project}</h2>
 
               <div
-                className="project-card shadow w-[300px] h-[400px] border-[2px] bg-primaryOrange rounded-lg p-5 m-auto"
+                className="project-card shadow w-[300px] h-[400px] border-[2px] bg-primaryOrange rounded-lg p-5 m-auto "
                 key={index}
               >
                 <div className="img w-[256px] h-40 my-2 bg-primaryTan justify-center flex align-center mx-0 px-0  rounded-md">
