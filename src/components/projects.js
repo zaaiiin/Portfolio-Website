@@ -22,11 +22,11 @@ const ProjectsCards = () => {
                 key={index}
               >
                 <div className="flex flex-col h-full justify-between">
-                  <h2 className="project-name  text-xl flex mx-0 mb-5 justify-center ">
+                  <h2 className="project-name  text-xl mb-5 justify-center ">
                     {project}
                   </h2>
 
-                  <div className="img w-[305px] h-[305px]  justify-center flex align-center mx-0 px-0  rounded-md border-2">
+                  <div className="img w-[300px] h-[305px]  justify-center mx-0 rounded-md border-2">
                     <Image src={cover} alt="project-screenshot" />
                   </div>
 
