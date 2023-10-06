@@ -4,7 +4,7 @@ import "@/styles/about.css";
 
 const About = () => {
   return (
-    <div className="about-me bg-primaryDarkBrown text-white text-center rounded-none pt-10 pb-28 ">
+    <div className="about-me bg-primaryDarkBrown text-white text-center rounded-none p-[40px] pb-[112px]">
       {aboutMe.map((value, index) => {
         const { p1, p2, p3 } = value;
 

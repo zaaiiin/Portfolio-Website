@@ -19,7 +19,7 @@ const Hero = () => {
           <button className="more-btn  ">More about me</button>
         </div>
 
-        <div className="hero-photo col-1 m-[50px] lg:m-[0px] justify-center xl:justify-end  lg:mt-[50px] xl:mt-[70px]">
+        <div className="hero-photo col-1 mt-[50px] mb-[112px] lg:m-[0px] justify-center xl:justify-end  lg:mt-[50px] xl:mt-[70px]">
           <Image
             src={Desktop}
             alt="desktop"

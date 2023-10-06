@@ -1,0 +1,12 @@
+input {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background-color: rgb(244, 242, 242);
+}
+
+#message {
+  height: 200px;
+  text-align: left;
+}

@@ -1,9 +1,22 @@
 import React from "react";
+import "@/styles/contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-me bg-primaryDarkBrown text-white text-center rounded-none pt-[20px] pb-28">
+    <div className="contact-me bg-primaryDarkBrown text-white text-center rounded-none pt-[40px] pb-[112px] ">
       <h1>Contact Me</h1>
+      <form className="contact-form mt-[30px] ">
+        <input type="text" id="name" placeholder="Name"></input>
+        <input
+          type="text"
+          id="email-address"
+          placeholder="Email Address"
+        ></input>
+        <input type="text" id="message" placeholder="Message"></input>
+        <div className="submit-btn_container mt-[30px] ">
+          <button className="submit-btn">Submit</button>
+        </div>
+      </form>
     </div>
   );
 };
