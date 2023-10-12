@@ -3,6 +3,7 @@ import { projects } from "./data";
 import "@/app/flexbox.css";
 import "@/app/globals.css";
 import Image from "next/image";
+import { Img } from "public/images/ai-image-gen_preview.png";
 import "@/styles/projects.css";
 
 const ProjectsCards = () => {
@@ -26,8 +27,14 @@ const ProjectsCards = () => {
                     {project}
                   </h2>
 
-                  <div className="img w-[300px] h-[305px]  justify-center mx-0 rounded-md border-2">
-                    <Image src={cover} alt="project-screenshot" />
+                  <div className="img   justify-center mx-0 rounded-md border-2">
+                    <Image
+                      src={cover}
+                      alt="image-gen"
+                      className="preview-image rounded-md"
+                      width={300}
+                      height={200}
+                    ></Image>
                   </div>
 
                   <div className="project-caption_container flex-end flex">

@@ -10,7 +10,7 @@ export const projects = [
   {
     id: 1,
     project: "Ai-image gen",
-    cover: "",
+    cover: "/images/ai-image-gen_preview.png",
     caption: "An app that generates images based on prompts",
     description:
       "An app that generates AI images based on prompts. The hugging face API is implemented here using async/await functions.",
@@ -19,7 +19,7 @@ export const projects = [
   {
     id: 2,
     project: "Sports league",
-    cover: "",
+    cover: "/images/sports-league_preview.png",
     caption:
       "A sports league app built as a part of a coding assessment in 2 days",
     description:
@@ -29,7 +29,7 @@ export const projects = [
   {
     id: 3,
     project: "CardGen",
-    cover: "",
+    cover: "/images/cardgen_preview.png",
     caption:
       "A web app that can set reminders for occasions and send reminder notifications",
     description:
@@ -39,7 +39,7 @@ export const projects = [
   {
     id: 4,
     project: "Calculator",
-    cover: "",
+    cover: "/images/calculator_preview.png",
     caption: "A React calculator built using vanilla JavaScript, CSS and HTML",
     description:
       "This is a basic calculator that executes addition, subtraction, multiplication and division functions.",
@@ -48,7 +48,7 @@ export const projects = [
   {
     id: 5,
     project: "Sign-up form component",
-    cover: "",
+    cover: "/images/sign-up-form_preview.png",
     caption: "A simple, responsive sign-up form",
     description:
       "This is a simple introduction component overview created using Vanilla Javscript, HTML and css. This also includes form validation.",
