@@ -22,14 +22,14 @@
   margin: 20px 0px;
 }
 
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 1440px) and (max-width: 1240px) {
   .hero {
-    margin: 100px 100px 50px 100px;
+    margin: 100px 100px 112px 100px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .hero {
-    margin: 100px 200px 0px 200px;
+    margin: 100px 200px 112px 200px;
   }
 }
