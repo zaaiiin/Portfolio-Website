@@ -19,7 +19,7 @@ const ProjectsCards = () => {
             <div className="projects-container col-2 justify-center pt-[0px] flex">
               <div
                 className="project-card shadow w-[340px] h-[500px]  bg-gray
-                 rounded-lg p-5  my-[10px] mb-[20px] mx-auto"
+                 rounded-lg p-5  my-[10px] mb-[20px] mx-auto flex-col hover:bg-primaryDarkBrown"
                 key={index}
               >
                 <div className="flex flex-col h-full justify-between">
@@ -27,7 +27,7 @@ const ProjectsCards = () => {
                     {project}
                   </h2>
 
-                  <div className="img   justify-center mx-0 rounded-md border-2">
+                  <div className="img justify-center mx-0 rounded-md border-2">
                     <Image
                       src={cover}
                       alt="image-gen"
@@ -47,7 +47,7 @@ const ProjectsCards = () => {
                     <ul className="skills-used flex flex-wrap justify-start cursor-pointer ">
                       {skills.map((skill, skillIndex) => (
                         <li
-                          className="each-skill bg-primaryDarkBrown text-white px-5 m-1 rounded"
+                          className="each-skill bg-primaryDarkBrown text-white px-5 m-1 rounded "
                           key={skillIndex}
                         >
                           {skill}

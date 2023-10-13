@@ -1,11 +1,23 @@
-/* .projects {
-  gap: 30px;
-} */
-.project-card {
-  display: flex;
-  flex-direction: column;
+/* .project-card {
   align-items: flex-end;
+} */
+
+.project-card:hover {
+  color: white;
+  cursor: pointer;
+  transition: ease 0.3s;
 }
 
-/* .project-card:hover {
-} */
+.project-card:hover .img {
+  border: 2px solid rgb(27, 27, 27);
+  transition: ease 0.3s;
+}
+
+.project-card:hover .project-caption {
+  color: white;
+}
+
+.project-card:hover .each-skill {
+  background: white;
+  color: black;
+}
