@@ -3,20 +3,21 @@ import { projects } from "./data";
 import "@/app/flexbox.css";
 import "@/app/globals.css";
 import Image from "next/image";
-import { Img } from "public/images/ai-image-gen_preview.png";
 import "@/styles/projects.css";
 
 const ProjectsCards = () => {
   return (
     <>
-      <div className="projects flex-container text-black mt-[40px] mb-[112px] mx-0 lg:my-auto justify-center align-center  lg:w-[1200px]">
-        <h1 className="projects-title mb-[20px]">My Projects</h1>
+      <div className="projects flex-container text-black mt-[40px] mx-0 lg:my-auto justify-center align-center  lg:w-vw pb-[112px]">
+        <h1 className="projects-title mb-[20px] flex justify-center mx-auto col-5 lg:mt-[40px] ">
+          My Projects
+        </h1>
 
         {projects.map((value, index) => {
           const { project, caption, skills, cover } = value;
 
           return (
-            <div className="projects-container col-2 justify-center pt-[0px] flex">
+            <div className="projects-container col-2 justify-center pt-[0px] flex md:mt-[20px] ">
               <div
                 className="project-card shadow w-[340px] h-[500px]  bg-gray
                  rounded-lg p-5  my-[10px] mb-[20px] mx-auto flex-col hover:bg-primaryDarkBrown"
