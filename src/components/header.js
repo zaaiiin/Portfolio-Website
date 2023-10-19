@@ -45,9 +45,15 @@ const Header = () => {
                 />
               </button>
 
-              <li className="menu-group_item about-me">About me</li>
-              <li className="menu-group_item">My work</li>
-              <li className="menu-group_item contact">Contact</li>
+              <li className="menu-group_item about-me">
+                <a href="#about">About me</a>
+              </li>
+              <li className="menu-group_item">
+                <a href="#projects">My work</a>
+              </li>
+              <li className="menu-group_item contact">
+                <a href="#contact">Contact</a>
+              </li>
             </ul>
           </div>
         )}
