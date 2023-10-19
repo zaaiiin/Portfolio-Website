@@ -75,10 +75,7 @@ const ProjectsCards = () => {
                   <div className="skills-used_container">
                     <ul className="skills-used flex flex-wrap justify-start cursor-pointer ">
                       {skills.map((skill, skillIndex) => (
-                        <li
-                          className="each-skill bg-primaryDarkBrown text-white px-5 m-1 rounded "
-                          key={skillIndex}
-                        >
+                        <li className="each-skill bg-primaryDarkBrown text-white px-5 m-1 rounded ">
                           {skill}
                         </li>
                       ))}

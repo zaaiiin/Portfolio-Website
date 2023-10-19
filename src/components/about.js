@@ -15,22 +15,15 @@ const About = () => {
           <div className="paragraphs ">
             <h1 className="about-me">More about me</h1>
             <div className="all-paragraphs md:m-[100px]">
-              <p
-                className="about-me_p p1 md:text-lg   fade-in-from-left"
-                key={index}
-              >
+              {" "}
+              key={index}
+              <p className="about-me_p p1 md:text-lg   fade-in-from-left">
                 {p1}
               </p>
-              <p
-                className="about-me_p p2 md:text-lg fade-in-from-left fade-in-delayed-1"
-                key={index}
-              >
+              <p className="about-me_p p2 md:text-lg fade-in-from-left fade-in-delayed-1">
                 {p2}
               </p>
-              <p
-                className="about-me_p p3 md:text-lg  fade-in-from-left fade-in-delayed-2"
-                key={index}
-              >
+              <p className="about-me_p p3 md:text-lg  fade-in-from-left fade-in-delayed-2">
                 {p3}
               </p>
             </div>

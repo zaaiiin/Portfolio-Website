@@ -17,7 +17,7 @@ const Hero = () => {
             the screen! I also love learning new skills.
           </p>
           <a href="#about">
-            <button className="more-btn  ">More about me</button>
+            <button className="more-btn">More about me</button>
           </a>
         </div>
 
