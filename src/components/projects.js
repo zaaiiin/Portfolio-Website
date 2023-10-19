@@ -18,9 +18,13 @@ const ProjectsCards = () => {
 
         {projects.map((value, index) => {
           const { project, caption, skills, cover, demo, github } = value;
+          const uniqueKey = `project-${index}`;
 
           return (
-            <div className="projects-container col-2 justify-center pt-[0px] flex md:mt-[20px] ">
+            <div
+              className="projects-container col-2 justify-center pt-[0px] flex md:mt-[20px] "
+              key={uniqueKey}
+            >
               <div
                 className="project-card shadow w-[340px] h-[520px]  bg-gray
                  rounded-lg p-5  my-[10px] mb-[20px] mx-auto flex-col hover:bg-primaryDarkBrown"
@@ -52,7 +56,7 @@ const ProjectsCards = () => {
                     </a>
                   </div>
 
-                  <div className="img justify-center mx-0 rounded-md border-2">
+                  <div className="img justify-center mx-0 rounded-md border-2 border-slate-100">
                     <Image
                       src={cover}
                       alt="image-gen"
