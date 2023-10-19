@@ -14,9 +14,7 @@ const About = () => {
         return (
           <div className="paragraphs ">
             <h1 className="about-me">More about me</h1>
-            <div className="all-paragraphs md:m-[100px]">
-              {" "}
-              key={index}
+            <div className="all-paragraphs md:m-[100px]" key={index}>
               <p className="about-me_p p1 md:text-lg   fade-in-from-left">
                 {p1}
               </p>
