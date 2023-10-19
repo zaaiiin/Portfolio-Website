@@ -38,3 +38,7 @@ p {
 .shadow {
   box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
 }
+
+html {
+  scroll-behavior: smooth;
+}

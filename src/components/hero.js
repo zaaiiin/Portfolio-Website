@@ -16,7 +16,9 @@ const Hero = () => {
             I am a frontend developer and I love seeing ideas come to life on
             the screen! I also love learning new skills.
           </p>
-          <button className="more-btn  ">More about me</button>
+          <a href="#about">
+            <button className="more-btn  ">More about me</button>
+          </a>
         </div>
 
         <div className="hero-photo col-1 mt-[50px] mb-[112px] lg:m-[0px] justify-center xl:justify-end  lg:mt-[50px] xl:mt-[70px]">

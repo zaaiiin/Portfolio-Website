@@ -5,19 +5,22 @@ import "@/app/globals.css";
 
 const Nav = () => {
   return (
-    <nav className="nav-bar invisible md:visible bg-primaryDarkBlue">
+    <nav className="nav-bar invisible md:visible ">
       <ul className="nav-list">
         <li>
-          <Link href="/about" className="about" />
-          About Me
+          <a href="#about" className="about">
+            About Me
+          </a>
         </li>
         <li>
-          <Link href="/projects" className="projects" />
-          Projects
+          <a href="#projects" className="projects">
+            Projects
+          </a>
         </li>
         <li>
-          <Link href="/contact" className="contact" />
-          Contact
+          <a href="#contact" className="contact">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>

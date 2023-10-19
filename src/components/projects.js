@@ -8,7 +8,10 @@ import "@/styles/projects.css";
 const ProjectsCards = () => {
   return (
     <>
-      <div className="projects flex-container text-black mt-[40px] mx-0 lg:my-auto justify-center align-center  lg:w-vw pb-[112px]">
+      <div
+        className="projects flex-container text-black mt-[40px] mx-0 lg:my-auto justify-center align-center  lg:w-vw pb-[112px]"
+        id="projects"
+      >
         <h1 className="projects-title mb-[20px] flex justify-center mx-auto col-5 lg:mt-[40px] ">
           My Projects
         </h1>

@@ -4,7 +4,10 @@ import "@/styles/about.css";
 
 const About = () => {
   return (
-    <div className="about-me bg-primaryDarkBrown text-white text-center rounded-none p-[40px] pb-[112px]">
+    <div
+      className="about-me bg-primaryDarkBrown text-white text-center rounded-none p-[40px] pb-[112px]"
+      id="about"
+    >
       {aboutMe.map((value, index) => {
         const { p1, p2, p3 } = value;
 
@@ -34,8 +37,9 @@ const About = () => {
           </div>
         );
       })}
-
-      <button className="my-projects">See my projects</button>
+      <a href="#projects">
+        <button className="my-projects">See my projects</button>
+      </a>
     </div>
   );
 };
