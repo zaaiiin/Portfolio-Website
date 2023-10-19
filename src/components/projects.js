@@ -14,12 +14,12 @@ const ProjectsCards = () => {
         </h1>
 
         {projects.map((value, index) => {
-          const { project, caption, skills, cover } = value;
+          const { project, caption, skills, cover, demo, github } = value;
 
           return (
             <div className="projects-container col-2 justify-center pt-[0px] flex md:mt-[20px] ">
               <div
-                className="project-card shadow w-[340px] h-[500px]  bg-gray
+                className="project-card shadow w-[340px] h-[520px]  bg-gray
                  rounded-lg p-5  my-[10px] mb-[20px] mx-auto flex-col hover:bg-primaryDarkBrown"
                 key={index}
               >
@@ -27,6 +27,27 @@ const ProjectsCards = () => {
                   <h2 className="project-name  text-xl mb-5 justify-center ">
                     {project}
                   </h2>
+
+                  <div className="icon-container flex">
+                    <a href={demo}>
+                      <Image
+                        src="/images/external-link_icon.svg"
+                        alt="external-link_icon"
+                        className="external-link_icon ml-1 p-1 "
+                        width={30}
+                        height={30}
+                      ></Image>
+                    </a>
+                    <a href={github}>
+                      <Image
+                        src="/images/github-icon.svg"
+                        alt="github_icon"
+                        className="github-icon ml-1 mb-1 p-1"
+                        width={30}
+                        height={30}
+                      ></Image>
+                    </a>
+                  </div>
 
                   <div className="img justify-center mx-0 rounded-md border-2">
                     <Image

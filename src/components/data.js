@@ -15,6 +15,8 @@ export const projects = [
     description:
       "An app that generates AI images based on prompts. The hugging face API is implemented here using async/await functions.",
     skills: ["next.js", "react", "tyepscript", "tailwind.css", "css", "html"],
+    demo: "https://ai-image-gen-vet.vercel.app/",
+    github: "https://github.com/zaaiiin/AI-image-gen",
   },
   {
     id: 2,
@@ -25,6 +27,8 @@ export const projects = [
     description:
       "This is a web interface created as a part of an interview. A leagueboard algorithm is implemented to keep track of scores and handle tiebreakers. Tailwind.css is used to make the app responsive and user-friendly",
     skills: ["react", "javascript", "tailwind.css", "css", "html"],
+    demo: "https://sports-league-nine.vercel.app/",
+    github: "https://github.com/zaaiiin/Sports-league",
   },
   {
     id: 3,
@@ -35,6 +39,8 @@ export const projects = [
     description:
       "This is a web app that sets and sends reminders for birthdays, anniversaries and other special events to tackle a real-life personal pain point - keeping track of special days. A form validation is also implemented as part of the app.A blueprint of the app was created using Figma and vanilla JavaScript and React were used to bring the idea to life. ",
     skills: ["react", "javascript", "css", "html"],
+    demo: "https://ephemeral-lollipop-3c5613.netlify.app/",
+    github: "https://github.com/zaaiiin/Card-gen",
   },
   {
     id: 4,
@@ -44,6 +50,8 @@ export const projects = [
     description:
       "This is a basic calculator that executes addition, subtraction, multiplication and division functions.",
     skills: ["react", "javascript", "css", "html"],
+    demo: "https://soft-cupcake-a6da57.netlify.app/",
+    github: "https://github.com/zaaiiin/React-calculator",
   },
   {
     id: 5,
@@ -53,5 +61,7 @@ export const projects = [
     description:
       "This is a simple introduction component overview created using Vanilla Javscript, HTML and css. This also includes form validation.",
     skills: ["react", "javascript", "css", "html"],
+    demo: "https://eclectic-genie-0c0163.netlify.app/",
+    github: "https://github.com/zaaiiin/Sign-up-form_component",
   },
 ];

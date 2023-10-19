@@ -4,7 +4,6 @@
 
 .project-card:hover {
   color: white;
-  cursor: pointer;
   transition: ease 0.3s;
 }
 
@@ -20,4 +19,11 @@
 .project-card:hover .each-skill {
   background: white;
   color: black;
+}
+
+.external-link_icon:hover,
+.github-icon:hover {
+  background-color: black;
+  cursor: pointer;
+  border-radius: 5px;
 }

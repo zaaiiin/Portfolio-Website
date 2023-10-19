@@ -1,9 +1,14 @@
 input {
-  width: 300px;
+  min-width: 40%;
   border-radius: 10px;
   margin-bottom: 10px;
   padding: 10px 15px;
   background-color: rgb(244, 242, 242);
+}
+
+input:focus {
+  color: black;
+  outline: none;
 }
 
 #message {
