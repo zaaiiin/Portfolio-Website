@@ -24,6 +24,7 @@ const Header = () => {
           <Image
             src={Hamburgerbtn}
             className="menu-icon"
+            alt="hamburger-menu_icon"
             height={10}
             width={25}
           />

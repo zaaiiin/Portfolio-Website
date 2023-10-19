@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="hero flex-container m-[25px] lg:m-[50px] ">
         <div className="hero-content col-4 pt-[30px] pr-[50px] pb-[0px] pl-[50px]  xl:pl-[0px]">
           <h1 className="hero-title text-3xl lg:text-4xl xl:text-5xl">
-            Hello, I'm Zaain{" "}
+            Hello, I'm Zaain
           </h1>
           <p className="hero-paragraph text-base md:text-lg">
             I am a frontend developer and I love seeing ideas come to life on
