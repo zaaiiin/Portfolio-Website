@@ -18,8 +18,7 @@ const ProjectsCards = () => {
 
         {projects.map((value, index) => {
           const { project, caption, skills, cover, demo, github } = value;
-          const uniqueKey = `project-${index}`;
-
+          console.log(index);
           return (
             <React.Fragment key={index}>
               <div className="projects-container col-2 justify-center pt-[0px] flex md:mt-[20px] ">
