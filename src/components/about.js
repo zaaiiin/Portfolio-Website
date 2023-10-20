@@ -12,9 +12,9 @@ const About = () => {
         const { p1, p2, p3 } = value;
 
         return (
-          <div className="paragraphs ">
+          <div className="paragraphs " key={index}>
             <h1 className="about-me">More about me</h1>
-            <div className="all-paragraphs md:m-[100px]" key={index}>
+            <div className="all-paragraphs md:m-[100px]">
               <p className="about-me_p p1 md:text-lg   fade-in-from-left">
                 {p1}
               </p>
