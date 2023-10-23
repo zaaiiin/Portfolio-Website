@@ -2,7 +2,7 @@ export const aboutMe = [
   {
     p1: "My name is Zaain and I am based in KL.",
     p2: "I am a dedicated learner with a passion for front-end development. My journey began with enrolling to a JavaScript course out of curiosity. It was then that I discovered my interest in the art of turning design concepts into pixel-perfect web interfaces.",
-    p3: "Apart from creating user-friendly web interfaces, I also like writing content. This complements my front-end skills by enabling me to create holistic digital experiences.",
+    p3: "Apart from creating user-friendly web interfaces, I also like writing content. This complements my front-end skills in creating more holistic digital experiences.",
   },
 ];
 
