@@ -14,7 +14,7 @@ const Hero = () => {
           </h1>
           <p className="hero-paragraph text-base md:text-lg">
             I am a frontend developer and I love seeing ideas come to life on
-            the screen! I also love learning new skills.
+            the screen!
           </p>
           <a href="#about">
             <button className="more-btn">More about me</button>
